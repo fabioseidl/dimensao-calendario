@@ -18,14 +18,13 @@ estacao     | Estação do ano (Primavera, Verão, Outono, Inverno)
 
 ## Como usar
 
-_Obs.: Certifique-se de ter a biblioteca pandas instalada._
-
 Execute os seguintes comandos:
 
 ~~~bash
 git clone https://github.com/fabioseidl/dimensao_calendario.git
-cd /dimensao_calendario
+cd dimensao_calendario
 python transform_dim_calendario.py
 ~~~~
+_Obs.: Certifique-se de ter a biblioteca pandas instalada._
 
 Um arquivo dim_calendario.csv será criado na mesma pasta do script. Basta importar este arquivo em sua aplicação Business Intelligence, ou carregá-lo em seu Data Warehouse.
