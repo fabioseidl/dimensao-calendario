@@ -22,7 +22,7 @@ Execute os seguintes comandos:
 
 ~~~bash
 git clone https://github.com/fabioseidl/dimensao_calendario.git
-cd dimensao_calendario
+cd dimensao-calendario
 python transform_dim_calendario.py
 ~~~~
 _Obs.: Certifique-se de ter a biblioteca pandas instalada._
